@@ -14,4 +14,5 @@
 <!--header section starts-->
     <?php include 'headerMenu.php'; ?>
   <!--header section ends-->
+<script src="assets/js/mainjs.js"></script>
 </body>

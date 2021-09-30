@@ -105,6 +105,7 @@
                 <label for="validationCustom02" class="col-sm-3 col-md-4 col-form-label col-form-label-sm">Completion
                   date </label>
                 <div class="col-sm-9 col-md-8">
+                
                   <input type="email" class="form-control form-control-sm" id="validationCustom02" required
                     placeholder="Enter Completion date">
                 </div>
@@ -112,19 +113,16 @@
               <div class="mb-2 row">
                 <label for="validationCustom02" class="col-sm-3 col-md-4 col-form-label col-form-label-sm"
                   aria-labelledby="dropdownMenu2">Department </label>
-                <div class="dropdown">
-                  <button class="px-2  py-1 ml-3 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select Department
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Web development</button>
-                    <button class="dropdown-item" type="button">Web designing</button>
-                    <button class="dropdown-item" type="button">App development</button>
-                    <button class="dropdown-item" type="button">Data analysis</button>
-                    <button class="dropdown-item" type="button">Digital Marketing</button>
-                  </div>
-                </div>
+                  <div class="col-sm-9 col-md-8">
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">Web development</option>
+        <option value="2">Graphic designer</option>
+        <option value="3">digital marketing</option>
+        <option value="4">Data analysis</option>
+        <option value="5">App development</option>
+      </select>
+</div>
               </div>
               <div class="mb-2 row">
                 <label for="validationCustom02" class="col-sm- col-md-4 col-form-label col-form-label-sm">Reporting
