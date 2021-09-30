@@ -1,5 +1,4 @@
-
-
+// Date and Time on header
 
     var today = new Date();
         var date = +today.getDate() + '-' + (today.getMonth() + 1) + '-' + today.getFullYear();
@@ -56,3 +55,24 @@
                     width.style.width='90%';
                 }
             }
+
+//  Drop Dwon Menu Script for Passing And Joining Year -->
+    window.onload = function() {
+        var ddlYears = document.getElementById("ddlYears");
+        var ddlYears1 = document.getElementById("ddlYears1");
+    
+        var currentYear = (new Date()).getFullYear();
+    
+        for (var i = currentYear; i >= 1990; i--) {
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears.appendChild(option);
+        }
+        for (var i = currentYear; i <= 2025; i++) {
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears1.appendChild(option);
+        }
+        };

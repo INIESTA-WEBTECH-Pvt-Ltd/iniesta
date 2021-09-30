@@ -37,30 +37,30 @@
                    
                     <li class="item">
                         <a href="#" class="menu-btn">
-                            <i class="fas fa-desktop"></i><span>Dashboard</span>
+                        <i class="fa fa-plus" aria-hidden="true"></i><span>New Application</span>
                         </a>
                     </li>
                     <li class="item" id="profile">
                         <a href="#profile" class="menu-btn">
-                            <i class="fas fa-user-circle"></i><span>Profile <i class="fas fa-chevron-left drop-down"></i></span>
+                        <i class="fa fa-users" aria-hidden="true"></i><span>Scedule Interviw<i class="fas fa-chevron-left drop-down"></i></span>
                         </a>
                        
                     </li>
                     <li class="item" id="messages">
                         <a href="#messages" class="menu-btn">
-                            <i class="fas fa-envelope"></i><span>Messages <i class="fas fa-chevron-left drop-down"></i></span>
+                            <i class="fas fa-envelope"></i><span>Send Offer Letter<i class="fas fa-chevron-left drop-down"></i></span>
                         </a>
                        
                     </li>
                     <li class="item" id="settings">
                         <a href="#settings" class="menu-btn">
-                            <i class="fas fa-cog"></i><span>Settings <i class="fas fa-chevron-left drop-down"></i></span>
+                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i><span>Leave<i class="fas fa-chevron-left drop-down"></i></span>
                         </a>
                        
                     </li>
                     <li class="item">
                         <a href="#" class="menu-btn">
-                            <i class="fas fa-info-circle"></i><span>About</span>
+                            <i class="fas fa-info-circle"></i><span>Attendance</span>
                         </a>
                     </li>
                 </div>

@@ -39,7 +39,7 @@
 
                 <li class="item">
                     <a href="#" class="menu-btn">
-                        <i class="fas fa-desktop"></i><span>Dashboard</span>
+                    <i class="fa fa-tasks" aria-hidden="true"></i><span>Today's Task</span>
                     </a>
                 </li>
                 <li class="item" id="profile">
@@ -51,20 +51,20 @@
                 </li>
                 <li class="item" id="messages">
                     <a href="#messages" class="menu-btn">
-                        <i class="fas fa-envelope"></i><span>Messages <i
+                    <i class="fa fa-download" aria-hidden="true"></i><span>Download<i
                                 class="fas fa-chevron-left drop-down"></i></span>
                     </a>
 
                 </li>
                 <li class="item" id="settings">
                     <a href="#settings" class="menu-btn">
-                        <i class="fas fa-cog"></i><span>Settings <i class="fas fa-chevron-left drop-down"></i></span>
+                        <i class="fas fa-info-circle"></i><span>Attendance<i class="fas fa-chevron-left drop-down"></i></span>
                     </a>
 
                 </li>
                 <li class="item">
                     <a href="#" class="menu-btn">
-                        <i class="fas fa-info-circle"></i><span>About</span>
+                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i><span>Leave</span>
                     </a>
                 </li>
             </div>
@@ -133,7 +133,6 @@
                     <div class="col-md-4 mb-1">
                         <label for="validationCustom01">12th Passing year :</label>
                         <select class="form-control" id="ddlYears"></select>
-                        <!-- <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required> -->
                         <div class="valid-feedback">
                             This field is required.
                         </div>
@@ -141,7 +140,6 @@
                     <div class="col-md-4 mb-1">
                         <label for="validationCustom02">Graduation Passing year :</label>
                         <select class="form-control" id="ddlYears1"></select>
-                        <!-- <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required> -->
                         <div class="valid-feedback">
                             This field is required.
                         </div>
@@ -262,6 +260,27 @@
                 .innerHTML = currentTime;
         }
         showTime();
+
+        //  Drop Dwon Menu Script for Passing And Joining Year -->
+    window.onload = function() {
+        var ddlYears = document.getElementById("ddlYears");
+        var ddlYears1 = document.getElementById("ddlYears1");
+    
+        var currentYear = (new Date()).getFullYear();
+    
+        for (var i = currentYear; i >= 1990; i--) {
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears.appendChild(option);
+        }
+        for (var i = currentYear; i <= 2025; i++) {
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears1.appendChild(option);
+        }
+        };
 
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
