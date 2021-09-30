@@ -100,19 +100,55 @@
               <div class="mb-1 row">
                 <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Department :</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control form-control-sm" id="validationCustom02" required placeholder="Enter Department">
+                <div class="dropdown">
+                  <button class="px-2 ml-0 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Department
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Web development</button>
+                    <button class="dropdown-item" type="button">Web designing</button>
+                    <button class="dropdown-item" type="button">App development</button>
+                    <button class="dropdown-item" type="button">Data analysis</button>
+                    <button class="dropdown-item" type="button">Digital Marketing</button>
+                  </div>
+                </div>
                 </div>
               </div>
               <div class="mb-1 row">
-                <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Stipend :</label>
+                <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Duration :</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control form-control-sm" id="validationCustom02"required placeholder="Stipend">
+                <div class="dropdown">
+                  <button class="px-2 ml-0 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Duration
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">1 months</button>
+                    <button class="dropdown-item" type="button">2 months</button>
+                    <button class="dropdown-item" type="button">3 months</button>
+                    <button class="dropdown-item" type="button">6 months</button>
+                    
+                  </div>
+                </div>
                 </div>
               </div>
               <div class="mb-1 row">
                 <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Reporting Manager</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control form-control-sm" id="validationCustom02"  required placeholder="Enter Reporting Manager name">
+                <div class="dropdown">
+                  <button class="px-2 ml-0 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu02  "
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Select
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">HR</button>
+                    <button class="dropdown-item" type="button">Linkedin </button>
+                   
+                    
+                    
+                  </div>
+                </div>
                 </div>
               </div>
               <div class="mb-1 row">
@@ -128,6 +164,7 @@
       </form>
       
       <script>
+
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {
         'use strict';
