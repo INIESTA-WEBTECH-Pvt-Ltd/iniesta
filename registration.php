@@ -58,14 +58,16 @@
             <div class="form-row justify-content-between d-flex">
                 <div class="col-md-4 mb-1">
                   <label for="validationCustom01">12th Passing year :</label>
-                  <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
+                  <select class="form-control" id="ddlYears"></select>
+                  <!-- <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required> -->
                   <div class="valid-feedback">
                     This field is required.
                   </div>
                 </div>
                 <div class="col-md-4 mb-1">
                   <label for="validationCustom02">Graduation Passing year :</label>
-                  <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+                  <select class="form-control" id="ddlYears1"></select>
+                  <!-- <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required> -->
                   <div class="valid-feedback">
                     This field is required.
                   </div>
@@ -92,7 +94,7 @@
             <div class="mb-1 row">
                 <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Joining Date :</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control form-control-sm" id="validationCustom02" required placeholder="Enter joining date:">
+                  <input type="datetime-local" class="form-control form-control-sm" id="validationCustom02" required>
                 </div>
               </div>
               <div class="mb-1 row">
@@ -182,6 +184,32 @@
         }, false);
       })();
       </script>
+
+<script type="text/javascript">
+    window.onload = function () {
+        //Reference the DropDownList.
+        var ddlYears = document.getElementById("ddlYears");
+        var ddlYears1 = document.getElementById("ddlYears1");
+ 
+        //Determine the Current Year.
+        var currentYear = (new Date()).getFullYear();
+ 
+        //Loop and add the Year values to DropDownList.
+        for (var i = currentYear; i >= 1990; i--){
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears.appendChild(option);
+        }
+        for (var i = currentYear; i <= 2025; i++){
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears1.appendChild(option);
+        }
+    };
+</script>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

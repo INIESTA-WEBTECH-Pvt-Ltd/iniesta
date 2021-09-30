@@ -7,16 +7,16 @@
     crossorigin="anonymous"></script>
 <div class="container-fluid shadow">
     <div class="row">
-        <div class="col-sm-4 p-1 m-1">
+        <div class="col-sm p-1 m-1">
             <a class="btn btn-primary"  href="#!" role="button"><i class="fa fa-facebook"></i></a>
             <a class="btn btn-primary"  href="#!" role="button"><i class="fa fa-twitter"></i></a>
             <a class="btn btn-primary"  href="#!" role="button"><i class="fa fa-linkedin"></i></a>
             <a class="btn btn-primary"  href="#!" role="button"><i class="fa fa-github"></i></a>
         </div>
-        <div class="col-sm-4 text-center pt-1">
+        <div class="col-sm text-center pt-1">
             <h3>Welcome Back!</h3>
         </div>
-        <div class="col-sm-4 text-right">
+        <div class="col-sm text-right">
             <span id="date"></span>
             <span id='time'></span><br>
             <span id="InternName">Vaishali Limje</span>
