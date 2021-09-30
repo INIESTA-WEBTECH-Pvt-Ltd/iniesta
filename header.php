@@ -32,4 +32,5 @@
     </div>
 </div>
   <!--header section ends-->
+<script src="assets/js/mainjs.js"></script>
 </body>
