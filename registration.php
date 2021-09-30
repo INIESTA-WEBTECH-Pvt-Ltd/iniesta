@@ -99,56 +99,41 @@
               </div>
               <div class="mb-1 row">
                 <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Department :</label>
-                <div class="col-sm-10">
-                <div class="dropdown">
-                  <button class="px-2 ml-0 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Select Department
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">Web development</button>
-                    <button class="dropdown-item" type="button">Web designing</button>
-                    <button class="dropdown-item" type="button">App development</button>
-                    <button class="dropdown-item" type="button">Data analysis</button>
-                    <button class="dropdown-item" type="button">Digital Marketing</button>
-                  </div>
-                </div>
-                </div>
+                <div class="col-sm-9 col-md-8">
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">Web development</option>
+        <option value="2">Graphic designer</option>
+        <option value="3">digital marketing</option>
+        <option value="4">Data analysis</option>
+        <option value="5">App development</option>
+      </select>
+</div>
               </div>
               <div class="mb-1 row">
                 <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Duration :</label>
-                <div class="col-sm-10">
-                <div class="dropdown">
-                  <button class="px-2 ml-0 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   Duration
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">1 months</button>
-                    <button class="dropdown-item" type="button">2 months</button>
-                    <button class="dropdown-item" type="button">3 months</button>
-                    <button class="dropdown-item" type="button">6 months</button>
-                    
-                  </div>
-                </div>
-                </div>
+                <div class="col-sm-9 col-md-8">
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">1 months</option>
+        <option value="2">2 months</option>
+        <option value="3">3 months</option>
+        <option value="4">6  months</option>
+       
+      </select>
+</div>
               </div>
               <div class="mb-1 row">
                 <label for="validationCustom02" class="col-sm-2 col-form-label col-form-label-sm">Reporting Manager</label>
-                <div class="col-sm-10">
-                <div class="dropdown">
-                  <button class="px-2 ml-0 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu02  "
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       Select
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <button class="dropdown-item" type="button">HR</button>
-                    <button class="dropdown-item" type="button">Linkedin </button>
-                   
-                    
-                    
-                  </div>
-                </div>
+                <div class="col-sm-9 col-md-8">
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">HR</option>
+        <option value="2">Linkedin</option>
+        
+       
+      </select>
+</div>
                 </div>
               </div>
               <div class="mb-1 row">

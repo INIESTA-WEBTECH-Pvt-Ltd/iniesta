@@ -45,7 +45,7 @@
                 if (sidebar.style.display == 'none') {
                     sidebar.style.display = 'block';
                     main.style.display = 'none';
-                    sidebar.style.width='280%';
+                    sidebar.style.width='240%';
                     width.style.width='60%';
                    
                 }
