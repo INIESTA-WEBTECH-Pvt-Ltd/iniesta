@@ -113,7 +113,7 @@
                 <label for="validationCustom02" class="col-sm-3 col-md-4 col-form-label col-form-label-sm"
                   aria-labelledby="dropdownMenu2">Department </label>
                 <div class="dropdown">
-                  <button class="px-2 ml-3 py-1 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
+                  <button class="px-2  py-1 ml-3 rounded  dropdown-toggle" type="button" id="dropdownMenu2"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Select Department
                   </button>
