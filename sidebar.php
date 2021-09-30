@@ -105,6 +105,7 @@
                 <label for="validationCustom02" class="col-sm-3 col-md-4 col-form-label col-form-label-sm">Completion
                   date </label>
                 <div class="col-sm-9 col-md-8">
+                
                   <input type="email" class="form-control form-control-sm" id="validationCustom02" required
                     placeholder="Enter Completion date">
                 </div>

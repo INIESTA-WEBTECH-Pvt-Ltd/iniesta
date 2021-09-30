@@ -46,7 +46,7 @@
                     sidebar.style.display = 'block';
                     main.style.display = 'none';
                     sidebar.style.width='240%';
-                    width.style.width='60%';
+                    width.style.width='74%';
                    
                 }
                 else {
