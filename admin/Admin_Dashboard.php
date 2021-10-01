@@ -68,7 +68,70 @@
             <!--sidebar end-->
             <!--main container start-->
             <div class="main-container">
-           
+             <div class="container">
+                 <h3>Dashboard</h3>
+                 <hr>
+                 <div class="row">
+                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                         <div class="card">
+                            <div class="d-flex">
+                             <div class="card-text">
+                               <h1>1</h1>
+                                <h6 class="text-secondary">Total Projects</h6>
+                             </div>
+                             <div class="card-icon">
+                                <i class="fa fa-cubes text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
+                             </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                     <div class="card">
+                            <div class="d-flex">
+                             <div class="card-text">
+                               <h1>189</h1>
+                                <h6 class="text-secondary">Total Proposals</h6>
+                             </div>
+                             <div class="card-icon">
+                                <i class="fa fa-quote-left text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
+                             </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                     <div class="card">
+                            <div class="d-flex">
+                             <div class="card-text">
+                               <h1>19</h1>
+                                <h6 class="text-secondary">Total Estimates</h6>
+                             </div>
+                             <div class="card-icon">
+                            
+                                <i class="fa fa-credit-card text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
+                             </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                     <div class="card">
+                            <div class="d-flex">
+                             <div class="card-text">
+                               <h1>41</h1>
+                                <h6 class="text-secondary">Total Invoices</h6>
+                             </div>
+                             <div class="card-icon">
+                                <i class="fa fa-fax text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
+                             </div>
+                            </div>
+                            
+                         </div>
+                     </div>
+                 </div>
+                 <h5>Welcome to Admin panel</h5>
+             </div>
            </div>
             <!--main container end-->
         </div>
