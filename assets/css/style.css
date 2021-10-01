@@ -186,3 +186,6 @@ body{
 .date{
   color:white;
 }
+.card-icon i{
+  font-size: 4rem;
+}

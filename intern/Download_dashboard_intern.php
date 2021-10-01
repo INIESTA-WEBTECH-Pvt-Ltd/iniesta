@@ -24,10 +24,10 @@
                         <i class="fas fa-bars"></i>
                     </div>
                     <div class="date">
-                        <span id="date"></span>
-                        <span id='time'></span><br>
-                        <span id="InternName">Vaishali Limje</span>
-                    </div>
+                      <span id="date"></span>
+                      <span id='time'></span><br>
+                      <span id="InternName">Vaishali Limje</span>
+                  </div>
                 </div>
             </div>
             <!--header menu end-->
@@ -35,7 +35,7 @@
             <div class="sidebar">
                 <div class="sidebar-menu">
                    
-                <li class="item">
+                    <li class="item">
                         <a href="#" class="menu-btn">
                             <i class="fas fa-desktop"></i><span>Dashboard</span>
                         </a>
@@ -68,71 +68,57 @@
             <!--sidebar end-->
             <!--main container start-->
             <div class="main-container">
-             <div class="container">
-                 <h3>Dashboard</h3>
-                 <hr>
-                 <div class="row">
-                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                         <div class="card bg-light">
-                            <div class="d-flex">
-                             <div class="card-text">
-                               <h1>1</h1>
-                                <h6 class="text-secondary">Total Projects</h6>
-                             </div>
-                             <div class="card-icon">
-                                <i class="fa fa-cubes text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
-                             </div>
-                            </div>
-                            
-                         </div>
-                     </div>
-                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                     <div class="card bg-light">
-                            <div class="d-flex">
-                             <div class="card-text">
-                               <h1>189</h1>
-                                <h6 class="text-secondary">Total Proposals</h6>
-                             </div>
-                             <div class="card-icon">
-                                <i class="fa fa-quote-left text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
-                             </div>
-                            </div>
-                            
-                         </div>
-                     </div>
-                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                     <div class="card bg-light">
-                            <div class="d-flex">
-                             <div class="card-text">
-                               <h1>19</h1>
-                                <h6 class="text-secondary">Total Estimates</h6>
-                             </div>
-                             <div class="card-icon">
-                            
-                                <i class="fa fa-credit-card text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
-                             </div>
-                            </div>
-                            
-                         </div>
-                     </div>
-                     <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                     <div class="card bg-light">
-                            <div class="d-flex">
-                             <div class="card-text">
-                               <h1>41</h1>
-                                <h6 class="text-secondary">Total Invoices</h6>
-                             </div>
-                             <div class="card-icon">
-                                <i class="fa fa-fax text-secondary" aria-hidden="true" style="font-size:4rem; "></i>
-                             </div>
-                            </div>
-                            
-                         </div>
-                     </div>
-                 </div>
-                 <h5>Welcome to Admin panel</h5>
-             </div>
-           </div>
+            <div class="container">
+                <h3 class="text-danger">Important Instructions:</h3 >
+                <ul class="mx-3">
+                    <li style="list-style:square;"class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex ducimus voluptatum dolores, illum optio?</li>
+                    <li style="list-style:square;"class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex ducimus voluptatum dolores, illum optio?</li>
+                    <li style="list-style:square;"class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex ducimus voluptatum dolores, illum optio?</li>
+                    <li style="list-style:square;"class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex ducimus voluptatum dolores, illum optio?</li>
+                </ul>
+                <hr>
+                <div class="d-flex m-3 w-50 justify-content-between">
+                    <div class="text1">
+                        <h5>My Credit Score</h5>
+                    </div>
+                    <div class="text2">
+                      <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="d-flex m-3 w-50 justify-content-between">
+                    <div class="text1">
+                        <h5>Download Joining Letter</h5>
+                    </div>
+                    <div class="text2">
+                      <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="d-flex m-3 w-50 justify-content-between">
+                    <div class="text1">
+                        <h5>Download LOR</h5>
+                    </div>
+                    <div class="text2">
+                      <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="d-flex m-3 w-50 justify-content-between">
+                    <div class="text1">
+                        <h5>Download Certificate</h5>
+                    </div>
+                    <div class="text2">
+                      <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="d-flex m-3 w-50 justify-content-between">
+                    <div class="text1">
+                        <h5>Download Feedback  Letter</h5>
+                    </div>
+                    <div class="text2">
+                      <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+            </div>
             <!--main container end-->
         </div>
         <!--wrapper end-->
