@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Sidebar Dashboard Template With Sub Menu</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
          <!--boostrap css-->
@@ -35,32 +35,32 @@
             <div class="sidebar">
                 <div class="sidebar-menu">
                    
-                    <li class="item">
+                <li class="item">
                         <a href="#" class="menu-btn">
-                        <i class="fa fa-plus" aria-hidden="true"></i><span>New Application</span>
+                            <i class="fas fa-desktop"></i><span>Application</span>
                         </a>
                     </li>
                     <li class="item" id="profile">
                         <a href="#profile" class="menu-btn">
-                        <i class="fa fa-users" aria-hidden="true"></i><span>Scedule Interviw<i class="fas fa-chevron-left drop-down"></i></span>
+                            <i class="fas fa-user-circle"></i><span> Interview <i class="fas fa-chevron-left drop-down"></i></span>
                         </a>
                        
                     </li>
                     <li class="item" id="messages">
                         <a href="#messages" class="menu-btn">
-                            <i class="fas fa-envelope"></i><span>Send Offer Letter<i class="fas fa-chevron-left drop-down"></i></span>
+                            <i class="fas fa-envelope"></i><span>Offer Letter <i class="fas fa-chevron-left drop-down"></i></span>
                         </a>
                        
                     </li>
                     <li class="item" id="settings">
                         <a href="#settings" class="menu-btn">
-                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i><span>Leave<i class="fas fa-chevron-left drop-down"></i></span>
+                            <i class="fas fa-cog"></i><span>Leave <i class="fas fa-chevron-left drop-down"></i></span>
                         </a>
                        
                     </li>
                     <li class="item">
                         <a href="#" class="menu-btn">
-                            <i class="fas fa-info-circle"></i><span>Attendance</span>
+                            <i class="fas fa-info-circle"></i><span>About</span>
                         </a>
                     </li>
                 </div>
@@ -181,8 +181,8 @@
                     </tbody>
                 </table>
             </div>
-            <nav aria-label="Page navigation example mr-0">
-          <ul class="pagination ">
+            <nav aria-label="Page navigation example mr-0 my-3">
+          <ul class="pagination p-4 ">
             <li class="page-item "><a class="page-link bg-primary text-light" href="#">Previous</a></li>
             <li class="page-item "><a class="page-link bg-primary text-light acti" href="#">1</a></li>
             <li class="page-item "><a class="page-link bg-primary text-light" href="#">2</a></li>
