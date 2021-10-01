@@ -69,7 +69,7 @@
             <!--main container start-->
             <div class="main-container">
             <div class="container">
-                <h4 class="text-danger">Important Instructions:</h4>
+                <h3 class="text-danger">Important Instructions:</h3 >
                 <ul class="mx-3">
                     <li style="list-style:square;"class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex ducimus voluptatum dolores, illum optio?</li>
                     <li style="list-style:square;"class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex ducimus voluptatum dolores, illum optio?</li>
@@ -79,7 +79,7 @@
                 <hr>
                 <div class="d-flex m-3 w-50 justify-content-between">
                     <div class="text1">
-                        <h4>My Credit Score</h4>
+                        <h5>My Credit Score</h5>
                     </div>
                     <div class="text2">
                       <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
@@ -87,7 +87,7 @@
                 </div>
                 <div class="d-flex m-3 w-50 justify-content-between">
                     <div class="text1">
-                        <h4>Download Joining Letter</h4>
+                        <h5>Download Joining Letter</h5>
                     </div>
                     <div class="text2">
                       <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="d-flex m-3 w-50 justify-content-between">
                     <div class="text1">
-                        <h4>Download LOR</h4>
+                        <h5>Download LOR</h5>
                     </div>
                     <div class="text2">
                       <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="d-flex m-3 w-50 justify-content-between">
                     <div class="text1">
-                        <h4>Download Certificate</h4>
+                        <h5>Download Certificate</h5>
                     </div>
                     <div class="text2">
                       <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="d-flex m-3 w-50 justify-content-between">
                     <div class="text1">
-                        <h4>Download Feedback  Letter</h4>
+                        <h5>Download Feedback  Letter</h5>
                     </div>
                     <div class="text2">
                       <button class="btn btn-primary px-4"><i class="fa fa-download" aria-hidden="true"></i></button>

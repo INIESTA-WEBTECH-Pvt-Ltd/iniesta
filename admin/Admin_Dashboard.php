@@ -73,7 +73,7 @@
                  <hr>
                  <div class="row">
                      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                         <div class="card">
+                         <div class="card bg-light">
                             <div class="d-flex">
                              <div class="card-text">
                                <h1>1</h1>
@@ -87,7 +87,7 @@
                          </div>
                      </div>
                      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                     <div class="card">
+                     <div class="card bg-light">
                             <div class="d-flex">
                              <div class="card-text">
                                <h1>189</h1>
@@ -101,7 +101,7 @@
                          </div>
                      </div>
                      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                     <div class="card">
+                     <div class="card bg-light">
                             <div class="d-flex">
                              <div class="card-text">
                                <h1>19</h1>
@@ -116,7 +116,7 @@
                          </div>
                      </div>
                      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
-                     <div class="card">
+                     <div class="card bg-light">
                             <div class="d-flex">
                              <div class="card-text">
                                <h1>41</h1>
